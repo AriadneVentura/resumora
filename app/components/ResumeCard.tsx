@@ -2,6 +2,7 @@ import React from 'react'
 import {Link} from "react-router";
 import ScoreCircle from "~/components/ScoreCircle";
 
+// TODO fix padding for the resume cards
 const ResumeCard = ({resume: {id, companyName, jobTitle, feedback, imagePath}}: { resume: Resume }) => {
     return (
         <Link to={`/resume/${id}`} className="resume-card animate-in fade-in duration-1000">
