@@ -52,10 +52,10 @@ export default function Home() {
             <div className="page-heading py-16">
                 <h1>Track Your Applications & Resume Ratings</h1>
                 { !loadingResumes && resumesStored?.length === 0 ? (
-                    <h2>No resumes found. Upload your first resume to get feedback.</h2>
+                    <h2>No resumes as of yet! Upload your first one to get feedback.</h2>
 
                 ) : (
-                    <h2>Review your submissions and check AI-powered feedback.</h2>
+                    <h2>Review your submissions and uncover AI-powered insights!</h2>
                 ) }
             </div>
             { loadingResumes && (
@@ -64,19 +64,19 @@ export default function Home() {
                 </div>
             ) }
 
+            { !loadingResumes && resumesStored?.length === 0 && (
+                <div className="flex flex-col items-center justify-center mb-5">
+                    <Link to="/upload" className="primary-button w-fit text-xl font-semibold">
+                        Upload Resume
+                    </Link>
+                </div>
+            ) }
+
             { !loadingResumes && [ ...resumes, ...resumesStored ].length > 0 && (
                 <div className="resumes-section">
                     { [ ...resumes, ...resumesStored ].map( ( resume: Resume ) => (
                         <ResumeCard key={ resume.id } resume={ resume }/>
                     ) ) }
-                </div>
-            ) }
-
-            { !loadingResumes && resumesStored?.length === 0 && (
-                <div className="flex flex-col items-center justify-center mt-10 gap-4">
-                    <Link to="/upload" className="primary-button w-fit text-xl font-semibold">
-                        Upload Resume
-                    </Link>
                 </div>
             ) }
         </section>
