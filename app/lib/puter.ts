@@ -129,6 +129,9 @@ export const usePuterStore = create<PuterStore>( ( set, get ) => {
             return false;
         }
 
+        const keys = await puter.kv.list( '*' );
+        console.log( keys )
+
         set( { isLoading: true, error: null } );
 
         try {
@@ -356,7 +359,7 @@ export const usePuterStore = create<PuterStore>( ( set, get ) => {
                     ],
                 },
             ],
-            { model: "gpt-5.2-pro" }
+            { model: "gpt-5.2-chat" }
         ) as Promise<AIResponse | undefined>;
     };
 
