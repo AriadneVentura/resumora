@@ -7,7 +7,7 @@ It shows how well your resume matches a specific job posting and gently guides y
 
 Built to feel calm, supportive, and empowering, because every job deserves a beautiful beginning :)
 
-🌌 Live Demo: [https://resumora.com](https://jsm-ai-resume-analyser-10-ggxap.puter.site/) 🌌
+🌌 Live at -> https://resumora.tools/ 🌌
 
 ---
 
