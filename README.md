@@ -1,17 +1,12 @@
 # Resumora 💫🌌🌙
-
-**Make your resume speak louder to employers!**
-
-Resumora is a *serverless resume analyser* designed to bring your resume into the light (to you, literally!)  
-It shows how well your resume matches a specific job posting and gently guides you on how to improve it, with **real-time ATS scoring**, **AI-powered feedback**, and **tips n tricks on how to improve**!
-
+A serverless resume analyser which shows how well your resume matches a specific job posting and gently guides you on how to improve it, with **real-time ATS scoring**, **AI-powered feedback**, and **tips n tricks on how to improve**!
 Built to feel calm, supportive, and empowering, because every job deserves a beautiful beginning :)
 
-🌌 Live at -> https://resumora-ojjx.puter.site/ 🌌
+🌌 Live here!: https://resumora-ojjx.puter.site/ 
 
 ---
 
-## 🩵🔮🪻 What Resumora Does
+## 🩵🔮🪻 Highlights!
 
 - See how your resume aligns with a job description.
 - Receive suggestions to improve wording and design.
