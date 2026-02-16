@@ -25,7 +25,4 @@ Built to feel calm, supportive, and empowering, because every job deserves a bea
 - **State Management:** Zustand  
 - **Styling:** Tailwind CSS  
 - **Cloud, Auth & AI:** Puter.js  
-- **Architecture:** Fully serverless  
-- **Deployment:** Live & production-ready
-
 ---
