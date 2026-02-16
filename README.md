@@ -13,26 +13,13 @@ Built to feel calm, supportive, and empowering, because every job deserves a bea
 
 ## 🩵🔮🪻 What Resumora Does
 
-- 📄 **Resume + Job Matching**  
-  See how closely your resume aligns with a specific job description.
-
-- 🤖 **AI-Powered Guidance**  
-  Receive thoughtful suggestions to improve wording and clarity.
-
-- 📊 **Real-Time ATS Scores**  
-  Understand how your resume is likely to perform in Applicant Tracking Systems.
-
-- 🔐 **Secure Uploads & Authentication**  
-  Resumes are securely uploaded and stored using Puter.js cloud storage.
-
-- ☁️ **Serverless by Design**  
-  Authentication, storage, and AI functionality are handled by Puter.js.
-
-- 💸 **User-Pays-Their-Own-Costs Model**  
-  Each user covers their own AI and cloud usage via Puter.js, keeping Resumora scalable and transparent.
-
-- 📱 **Responsive & Elegant UI**  
-  Designed to feel smooth and welcoming on both desktop and mobile.
+- See how your resume aligns with a job description.
+- Receive suggestions to improve wording and design.
+- Understand how your resume will perform in Applicant Tracking Systems.
+- Resumes are securely uploaded and stored using Puter.js cloud storage.
+- Authentication, storage, and AI functionality are handled by Puter.js.
+- Each user covers their own AI and cloud usage via Puter.js.
+- Designed for both desktop and mobile.
 
 ---
 
